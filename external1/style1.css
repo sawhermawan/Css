@@ -1,0 +1,11 @@
+h1 {
+	color: lightblue;
+	font-family: arial;
+	font-size: 5em;
+	font-variant: small-caps;
+	font-style: italic;
+}
+p{
+	font-family: arial, verdana, sans-serif;
+	line-height: 20px;
+}
