@@ -1,0 +1,15 @@
+h1 {
+
+	color: lightseagreen;
+	font-size: 50px;
+	font-variant: small-caps;
+	text-align: justify;
+	text-decoration: underline;
+}
+p {
+	text-indent: 28px;
+	text-align: justify;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	word-spacing: 3px;
+}
