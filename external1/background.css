@@ -1,0 +1,21 @@
+h1{
+	text-align: center;
+	color: green;
+	font-variant: small-caps;
+	font-size: 5em;
+}
+
+body{
+	background-color: white;
+	background-image: url(../images/tree2.jpg);
+	background-repeat: no-repeat;
+	background-position:  center;
+}
+
+p{
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	text-indent: 35px;
+	text-align: justify;
+
+}
