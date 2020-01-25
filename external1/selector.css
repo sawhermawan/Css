@@ -1,7 +1,41 @@
-h1, p{
+h1,h2{
 
 	color : lightblue;
 	font-variant: small-caps;
 	text-align: center;
 	font-size: 3em;
+}
+h2{
+	text-align:left;
+	font-size: 30px;
+	font-variant: normal;
+}
+
+ul li a{
+	color: red;
+}
+
+ol li a{
+
+	color : green;
+}
+
+#p1{
+	color: green;
+	font-family: arial;
+	letter-spacing: 5px;
+	word-spacing: 4px;
+	text-indent: 28px;
+}
+
+.p2{
+	color:blue;
+	font-family: helvetica;
+	letter-spacing: 4px;
+	word-spacing: 6px;
+	text-indent: 20;
+}
+
+.cetak-tebal{
+	font-weight: bold;
 }
