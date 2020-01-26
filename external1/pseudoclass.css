@@ -42,11 +42,40 @@ li:last-child a{
 	font-size: 30px;
 }
 
-li:nth-child(4) a{
+li:nth-child(even) a:active{/*genap*/
 
 	letter-spacing: 5px;
 }
 
-li:nth-child(3n) a{
+li:nth-child(3n) a{/*kelipatan*/
 	color: red;
+}
+
+li:nth-child(odd) a:hover{/*ganjil*/
+	color: white;
+}
+
+p:first-of-type{/*elemen yang sama yang pertama*/
+
+	color: green;
+	font-variant: small-caps;
+	font-size: 40px;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	text-indent: 28px;
+}
+
+p:last-of-type{/*elemen yang sama yang kedua*/
+	color: lightseagreen;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	text-align: justify;
+	text-indent: 30px;
+	font-size: 2em
+}
+body{
+	background: url(../images/tree2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 }
