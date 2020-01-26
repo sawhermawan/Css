@@ -1,3 +1,4 @@
+/*pseudo class 'link'*/
 h1{
 	font-family: arial;
 	font-variant: small-caps;
@@ -28,4 +29,24 @@ h1{
 
 .hello:visited{
 	color: pink;
+}
+
+/*parent child*/
+
+li:first-child a{
+	color: green;
+}
+
+li:last-child a{
+	font-variant: small-caps;
+	font-size: 30px;
+}
+
+li:nth-child(4) a{
+
+	letter-spacing: 5px;
+}
+
+li:nth-child(3n) a{
+	color: red;
 }
