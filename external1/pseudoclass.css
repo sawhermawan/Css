@@ -1,0 +1,31 @@
+h1{
+	font-family: arial;
+	font-variant: small-caps;
+	font-size: 4em;
+	color: lightseagreen;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.hello:link {
+	color: orange;
+	font-size: 2em;
+}
+
+.hello:hover {
+
+	font-family: arial;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.hello:active{
+
+	color: green;
+	font-style: italic;
+}
+
+.hello:visited{
+	color: pink;
+}
