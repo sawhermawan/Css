@@ -1,0 +1,32 @@
+div{
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	text-align: justify;
+	overflow: scroll;
+
+}
+h1{
+	font-family: arial;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	font-size: 28px;
+	text-align: center;
+	color: green;
+}
+h1 span:first-child{
+	color: red;
+	font-size: 1.5em;
+	font-family:Times New Roman, Times, serif;
+}
+
+h1 span:nth-child(2){
+	color: black;
+	font-family: calibri, serif;
+}
+h1 span:last-child{
+	color:blue;
+	font-size: 1.5em;
+	font-family:impact;
+}
+
